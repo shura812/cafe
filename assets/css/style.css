@@ -1,0 +1,281 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+/*header*/
+.header {
+    padding: 30px 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 2px 4px 25px 2px rgb(161, 152, 152);
+}
+.header--fixed {
+    background-color:  #FFFFFF;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    transform: translate3d(0, 0, 0);
+}
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.header_img {
+    height: 18px;
+}
+
+
+/*btn*/
+.header_btn {
+    
+}    
+.btn {
+    margin: 0 20px;
+    width: 78px;
+    height: 40px;
+    left: 903px;
+    top: 16px;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    
+
+    
+}
+.btn:hover {
+    content: "";
+    color: rgb(228, 134, 10);
+    transition: .1s;
+}
+
+/*input*/
+.search {
+    padding-top: 200px;
+}
+.input {
+    border: 0;
+    outline: none;
+    width: 235px;
+    height: 24px;
+    left: 81px;
+    top: 128px;
+    color: #626262;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+hr {
+background: #757575;
+mix-blend-mode: normal;
+opacity: 0.3;
+}
+/*menu*/
+
+.menu {
+    padding: 50px 0;
+
+}
+.menu_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    color: #1D1D1D;
+    padding-bottom: 16px;
+    text-align: center;
+
+}
+.menu_body {
+    max-width: 990px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.menu_column {
+    padding-bottom: 16px;
+    flex: 0 1 33.333%;
+
+}
+.menu_name {
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 16px;
+    
+}
+.menu_text {
+    padding-top: 5px;
+    color: #626262;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+.menu_time {
+    padding-top: 5px;
+    color: #1D1D1D;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+}
+/*footer*/
+.footer {
+    background: #262626;
+    padding-top: 50px;
+}
+.footer_img {
+    padding: 50px 0;
+}
+.footer_body {
+    
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+
+}
+
+.footer_social {
+    margin-top: 30px;
+
+}
+.footer_social a {
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #DADADA;
+    
+}
+.footer_social a:hover{ 
+    content: "";
+    color: #dc7373;
+    transition: .1s;
+}
+.footer_column_2 {
+    color: #DADADA;
+
+}
+.footer_item {
+    font-size: 20px;
+}
+.footer_text a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer_text a:hover{ 
+    content: "";
+    color: #dc7373;
+    transition: .1s;
+}
+
+.footer_1 {
+    text-align: center;
+    
+}
+.footer_img_1 {
+    padding: 40px;
+    
+}
+.footer_img_1 a {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+.footer_end {
+    color: #fff;
+    padding-top: 40px;
+
+}
+.footer_end_1 {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+/*accordion*/
+.accordion_header {
+    position: relative;
+    padding: 15px 93px 17px 2px;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.accordion_header:after {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    
+    border-top: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+    transform: translateY(-50%) rotate(135deg);
+}
+.accordion_title {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+
+}
+.accordion_item {
+    margin-bottom: 10px;
+    border: 1px solid #e5e5e5;
+}
+/*icon*/
+.world_icon {
+    color: #FFFFFF;
+    margin: 0 15px;
+    text-decoration: none;
+    
+}
+.shop {
+    color: #333;
+    size: 20px;
+    text-decoration: none;
+    font-size: 22px;
+    
+} 
+.uber {
+    margin-top: 33px;
+    text-transform: uppercase;
+}
+span {
+    color: #FFFFFF;
+}
+ul {
+    margin-bottom: 30px;
+}
